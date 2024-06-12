@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-active {
+        color: #fff !important; /* Ganti dengan kode warna yang Anda inginkan */
+    }
+}
