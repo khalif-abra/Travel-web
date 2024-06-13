@@ -7,3 +7,12 @@
         color: #fff !important; /* Ganti dengan kode warna yang Anda inginkan */
     }
 }
+
+@layer utilities {
+    @media (min-width: 1884px) {
+        .custom-container {
+            width: 1600px !important;
+            margin: 0 auto !important;
+        }
+    }
+}
